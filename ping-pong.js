@@ -4,7 +4,7 @@ const canvasEl = document.querySelector('canvas'),
 const teclado = {key: 0}
 
 
-//class campo
+//objeto campo
 const campo = {
     altura: window.innerHeight,
     largura: window.innerWidth,
@@ -16,7 +16,7 @@ const campo = {
     },
 }
 
-//class linha
+//objeto linha
 const linha = {
     altura: campo.altura,
     largura: 10,
@@ -27,7 +27,7 @@ const linha = {
     },
 }
 
-//class raquetes
+//objeto raquetes
 const raqueteEsq = {
     x: 10,
     y: campo.altura/2,
@@ -76,6 +76,7 @@ const raqueteDir = {
     }
 }
 
+//objeto placar
 const placar = {
     player1: 0,
     player2: 0,
@@ -90,6 +91,7 @@ const placar = {
     }
 }
 
+//objeto bola
 const bolinha = {
     x: campo.largura/2,
     y: campo.altura/2,
